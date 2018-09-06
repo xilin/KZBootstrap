@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "KZBootstrap"
-  s.version          = "0.6.1"
+  s.version          = "1.0.0"
   s.summary          = "iOS project bootstrap aimed at high quality coding."
   s.description      = <<-DESC
                        Project bootstrap that provides automatic icon versioning, todo -> warning conversion, warnings while files become too long, build numbering, environment switching/validation and much more.
@@ -25,7 +25,6 @@ Pod::Spec.new do |s|
 
 	s.preserve_paths = "Pod/Assets/Scripts/*.{sh,swift}"
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
   s.requires_arc = true
 
   s.default_subspec = 'Core'

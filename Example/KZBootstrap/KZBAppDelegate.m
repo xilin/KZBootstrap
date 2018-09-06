@@ -8,12 +8,10 @@
 
 #import "KZBAppDelegate.h"
 #import "KZBootstrap.h"
-#import "DDASLLogger.h"
-#import "DDTTYLogger.h"
-#import "DDLogMacros.h"
+#import "CocoaLumberjack.h"
 #import "KZBootstrapLogFormatter.h"
 #import "AFNetworking.h"
-static const int ddLogLevel = LOG_LEVEL_INFO;
+static const int ddLogLevel = DDLogLevelInfo;
 
 @implementation KZBAppDelegate
 
